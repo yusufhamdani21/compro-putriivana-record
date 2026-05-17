@@ -1,0 +1,22 @@
+:root {
+    --blue-deep: #0a1628;
+    --blue-dark: #0d1f3c;
+    --blue-mid: #1a3a6b;
+    --blue-core: #1e54b7;
+    --blue-bright: #2e74e8;
+    --blue-sky: #5a9cf5;
+    --blue-light: #a8cbff;
+    --blue-pale: #d6e8ff;
+    --gold: #c9a84c;
+    --white: #f8faff;
+    --text-muted: #7a9cc7;
+
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    --radius: 2px;
+    --transition: 0.3s ease;
+
+    --section-pad: 100px 60px;
+    --max-width: 1100px;
+}
