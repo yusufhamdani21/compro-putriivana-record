@@ -52,8 +52,7 @@ function scrollTo(href) {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 60px;
-    overflow: hidden;
+    padding: 120px 60px 0;
 }
 
 /* ── circle + vinyl ── */
@@ -224,7 +223,7 @@ function scrollTo(href) {
 /* ── mobile ── */
 @media (max-width: 768px) {
     .hero {
-        padding: 120px 24px 60px;
+        padding: 140px 24px 60px;
     }
 
     .hero-circle {

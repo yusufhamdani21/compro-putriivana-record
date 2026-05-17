@@ -61,6 +61,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 <style scoped>
 nav {
+    min-height:72px;
     position: fixed;
     top: 0;
     left: 0;
@@ -83,13 +84,10 @@ nav.scrolled {
 
 .nav-logo {
     font-family: var(--font-display);
-    font-size: 1.4rem;
+    font-size: 1.05rem;
     font-weight: 600;
-    letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--white);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
 }
 
 .dot {
@@ -108,8 +106,8 @@ nav.scrolled {
 
 .nav-links a {
     color: var(--blue-light);
-    font-size: 0.82rem;
-    letter-spacing: 0.12em;
+    font-size: 0.72rem;
+    letter-spacing: 0.8em;
     text-transform: uppercase;
     transition: color var(--transition);
 }
